@@ -1,0 +1,21 @@
+﻿<Window x:Class="FontIcon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FontIcon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+ 
+    <Grid>
+        <ListBox Grid.Column="0" SelectionMode="Single" x:Name="sidebar" Margin="0,50,0,50" BorderThickness="0">
+
+            <local:NavButton Margin="3" Padding="6"  Icon="&#xf007;" FontFamily="./#Font Awesome 6 Free Solid"/>
+            <local:NavButton Margin="3" Padding="6"  Icon="&#xf5ad;" FontFamily="./#Font Awesome 6 Free Solid"/>
+            <local:NavButton Margin="3" Padding="6"  Icon="&#xf073;" FontFamily="./#Font Awesome 6 Free Solid"/>
+            <local:NavButton Margin="3" Padding="6"  Icon="&#xf007;" FontFamily="./#Font Awesome 6 Free Solid"/>
+
+        </ListBox>
+    </Grid>
+</Window>
